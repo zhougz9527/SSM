@@ -19,9 +19,7 @@ import java.util.Map;
  * @Date: 2019/3/26
  * @Time: 15:41
  */
-public class LogInterceptor implements HandlerInterceptor {
-
-    private static final Logger LOGGER = LoggerFactory.getLogger(LogInterceptor.class);
+public class LogInterceptor extends BaseInterceptor implements HandlerInterceptor {
 
     private static final ThreadLocal<Long> startTimeThreadLocal = new NamedThreadLocal<Long>("ThreadLocal StarTime");
 
@@ -52,7 +50,7 @@ public class LogInterceptor implements HandlerInterceptor {
             sb.append("Method: ").append(handlerMethod.getMethod().getName()).append("\n");
             sb.append("Params: ").append(getParamString(httpServletRequest.getParameterMap())).append("\n");
             sb.append("URI: ").append(httpServletRequest.getRequestURI()).append("\n");
-            LOGGER.debug(sb.toString());
+            logger.debug(sb.toString());
         }
         return true;
     }
@@ -66,7 +64,7 @@ public class LogInterceptor implements HandlerInterceptor {
             StringBuilder sb = new StringBuilder(1000);
             sb.append("CostTime: ").append(executeTime).append("ms").append("\n");
             sb.append("-------------");
-            LOGGER.debug(sb.toString());
+            logger.debug(sb.toString());
         }
 
     }
@@ -82,18 +80,18 @@ public class LogInterceptor implements HandlerInterceptor {
     @Override
     public void afterCompletion(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, Exception e) throws Exception {
         // 打印JVM信息
-        if (LOGGER.isDebugEnabled()) {
+        if (logger.isDebugEnabled()) {
             long beginTime = startTimeThreadLocal.get();// 得到线程绑定局部变量的时间
             long endTime = System.currentTimeMillis();
             if (null != e) {
-                LOGGER.debug("Controller 异常: {}", e.getMessage());
+                logger.debug("Controller 异常: {}", e.getMessage());
             }
             StringBuilder sb = new StringBuilder();
             sb.append("计时结束: ").append(new SimpleDateFormat("hh:mm:ss.sss").format(endTime)).append(" 耗时: ").append(endTime - beginTime)
                     .append(" URI: ").append(httpServletRequest.getRequestURI()).append(" 最大内存: ").append(Runtime.getRuntime().maxMemory()/1024/1024).append("m")
                     .append(" 已分配内存: ").append(Runtime.getRuntime().totalMemory()/1024/1024).append("m").append(" 剩余内存: ").append(Runtime.getRuntime().freeMemory()/1024/1024).append("m")
                     .append(" 最大可用内存: ").append((Runtime.getRuntime().maxMemory()-Runtime.getRuntime().totalMemory()+Runtime.getRuntime().freeMemory())/1024/1024).append("m");
-            LOGGER.debug(sb.toString());
+            logger.debug(sb.toString());
             startTimeThreadLocal.remove();
         }
     }

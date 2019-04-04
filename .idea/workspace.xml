@@ -7,33 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e043e99-c54a-4279-b632-8703c3575f34" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-data-commons-1.13.4.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-expression-4.3.9.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_2_10_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_1_2_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/mongodb.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mongodb.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/mongodb.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/spring/spring-mongodb.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/mongo-java-driver-2.10.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-data-commons-1.5.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-data-mongodb-1.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-expression-3.1.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mongodb.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring/spring-mongodb.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SSM_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SSM_war_exploded.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/ssm/dto/Result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ssm/dto/Result.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/ssm/interceptors/LogInterceptor.class" afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/ssm/interceptors/LogInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/ssm/interceptors/LoginInterceptor.class" afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/ssm/interceptors/LoginInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/ssm/service/impl/BaseServiceImpl.class" afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/ssm/service/impl/BaseServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/ssm/web/IndexController.class" afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/ssm/web/IndexController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ssm/interceptors/LogInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/ssm/interceptors/LogInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ssm/interceptors/LoginInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/ssm/interceptors/LoginInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ssm/service/impl/BaseServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ssm/service/impl/BaseServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ssm/web/IndexController.class" afterPath="$PROJECT_DIR$/target/classes/com/ssm/web/IndexController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSM.iml" afterPath="$PROJECT_DIR$/SSM.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/spring/spring-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/spring/spring-redis.xml" afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/spring/spring-redis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/spring-redis.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-redis.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_5_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_4_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_1_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_9_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/interceptors/LogInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/interceptors/LogInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/interceptors/LoginInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/interceptors/LoginInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/BaseServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/BaseServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/web/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/web/IndexController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dto/Result.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dto/result/Result.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,14 +35,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="spring-redis.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml">
+      <file leaf-file-name="LogInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/interceptors/LogInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="98" lean-forward="false" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
-              <folding>
-                <element signature="e#713#732#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="779">
+              <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,51 +48,30 @@
       <file leaf-file-name="spring-dao.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
+            <state relative-caret-position="171">
               <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="99" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gitignore">
+      <file leaf-file-name="BaseInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/interceptors/BaseInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redis.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/utils/RedisUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            <state relative-caret-position="209">
+              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding>
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ssm/RedisTest.java">
+      <file leaf-file-name="LoginInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/interceptors/LoginInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="37" column="53" lean-forward="false" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
+            <state relative-caret-position="405">
+              <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -114,42 +80,52 @@
       <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/web/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="109" column="21" lean-forward="false" selection-start-line="109" selection-start-column="21" selection-end-line="110" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/bo/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+            <state relative-caret-position="172">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding>
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/html/404.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,8 +133,8 @@
       <file leaf-file-name="BaseServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/impl/BaseServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="209">
+              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -172,8 +148,10 @@
         <option value="mybatis-config.xml" />
         <option value="mybatis-mapper.xml" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -200,9 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/service/CategoryService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/impl/CategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mapper/CategoryMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/CategoryController.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/MybatisTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/springMVC.xml" />
@@ -217,7 +192,6 @@
         <option value="$PROJECT_DIR$/src/main/java/dao/AppointmentDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jinmu/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ssm/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssm/web/BaseController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/SSMApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/BookDao.xml" />
@@ -226,22 +200,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/utils/GzipUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ssm/BookDaoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ssm/GzipTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssm/dto/Result.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/interceptor/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssm/interceptors/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssm/interceptors/LogInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssm/utils/CommonUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/utils/RedisUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/redis.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssm/web/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/bo/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/bo/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/utils/SerializableUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/RedisService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/BaseServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/RedisServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/ssm/RedisTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mongodb.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-mongodb.xml" />
@@ -249,6 +216,19 @@
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/dto/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/dto/result/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/dto/result/ResultUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/dto/result/ResultEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/utils/CommonUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/web/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/BaseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/interceptors/BaseInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/interceptors/LogInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/interceptors/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/404.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/web/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
       </list>
     </option>
   </component>
@@ -337,8 +317,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -523,6 +503,25 @@
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -565,9 +564,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/workspace/jinzhou-bank" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\private_workspace\SSM\src\main\webapp\WEB-INF\static\html" />
+      <recent name="F:\private_workspace\SSM\src\main\webapp\WEB-INF" />
+      <recent name="F:\private_workspace\SSM\src\main\webapp" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ssm" />
     </key>
@@ -590,7 +595,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RedisTest.redisTest">
+  <component name="RunManager" selected="Tomcat Server.ssm">
     <configuration name="BookDaoTest.testQueryById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -900,7 +905,8 @@
       <workItem from="1553770355644" duration="30000" />
       <workItem from="1553822662523" duration="2207000" />
       <workItem from="1554283754461" duration="1384000" />
-      <workItem from="1554285155370" duration="1618000" />
+      <workItem from="1554285155370" duration="2316000" />
+      <workItem from="1554344638675" duration="8616000" />
     </task>
     <servers />
   </component>
@@ -937,7 +943,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86072000" />
+    <option name="totallyTimeSpent" value="95386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -961,11 +967,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5432802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41571754" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36695278" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28701717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1022,10 +1028,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/CategoryMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/CategoryController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/CategoryService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/CategoryServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/test/MybatisTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties" />
@@ -1047,64 +1049,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/utils.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/web/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/utils/BaseUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/dto/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/config/WebConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="61" lean-forward="false" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/interceptors/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/interceptors/LogInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="45" column="62" lean-forward="false" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listCategory.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/utils/CommonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1193,65 +1144,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/bo/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1045">
           <caret line="55" column="18" lean-forward="false" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
           <folding>
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="false" />
+            <element signature="e#504#505#0" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#576#577#0" expanded="false" />
+            <element signature="e#609#610#0" expanded="false" />
+            <element signature="e#638#639#0" expanded="false" />
+            <element signature="e#682#683#0" expanded="false" />
+            <element signature="e#718#719#0" expanded="false" />
+            <element signature="e#745#746#0" expanded="false" />
+            <element signature="e#771#772#0" expanded="false" />
+            <element signature="e#806#807#0" expanded="false" />
+            <element signature="e#836#837#0" expanded="false" />
+            <element signature="e#881#882#0" expanded="false" />
+            <element signature="e#915#916#0" expanded="false" />
+            <element signature="e#976#977#0" expanded="false" />
+            <element signature="e#1022#1023#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/bo/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
+        <state relative-caret-position="589">
           <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
           <folding>
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="false" />
+            <element signature="e#398#399#0" expanded="false" />
+            <element signature="e#438#439#0" expanded="false" />
+            <element signature="e#470#471#0" expanded="false" />
+            <element signature="e#504#505#0" expanded="false" />
+            <element signature="e#534#535#0" expanded="false" />
+            <element signature="e#580#581#0" expanded="false" />
+            <element signature="e#618#619#0" expanded="false" />
+            <element signature="e#650#651#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+            <element signature="e#720#721#0" expanded="false" />
+            <element signature="e#754#755#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/impl/BaseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1260,8 +1195,8 @@
         <state relative-caret-position="361">
           <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding>
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="false" />
+            <element signature="e#672#673#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1276,17 +1211,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/web/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
+        <state relative-caret-position="2071">
           <caret line="109" column="21" lean-forward="false" selection-start-line="109" selection-start-column="21" selection-end-line="110" selection-end-column="20" />
           <folding />
         </state>
@@ -1294,26 +1221,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ssm/RedisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
+        <state relative-caret-position="532">
           <caret line="37" column="53" lean-forward="false" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="98" lean-forward="false" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
-          <folding>
-            <element signature="e#713#732#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="99" />
           <folding />
         </state>
       </provider>
@@ -1321,7 +1230,159 @@
     <entry file="file://$PROJECT_DIR$/gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="98" lean-forward="false" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/dto/result/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/dto/result/ResultUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/dto/result/ResultEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/utils/CommonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/web/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/impl/BaseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/interceptors/BaseInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/interceptors/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/interceptors/LogInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/html/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/web/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
           <folding />
         </state>
       </provider>

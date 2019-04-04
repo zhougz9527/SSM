@@ -16,9 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  * @Date: 2019/3/26
  * @Time: 15:07
  */
-public class LoginInterceptor implements HandlerInterceptor {
-
-    private static final Logger logger = LoggerFactory.getLogger(LoginInterceptor.class);
+public class LoginInterceptor extends BaseInterceptor implements HandlerInterceptor {
 
     /**
      * 在业务处理器处理业务之前被调用, 当返回true则往后执行, 返回false则不往后执行
@@ -30,7 +28,7 @@ public class LoginInterceptor implements HandlerInterceptor {
      */
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
-        logger.info("进入 preHandle 方法... requestUrl: {}, requestUri: {}", httpServletRequest.getRequestURL(), httpServletRequest.getRequestURI());
+        logger.debug("进入 preHandle 方法... requestUrl: {}, requestUri: {}", httpServletRequest.getRequestURL(), httpServletRequest.getRequestURI());
         return true;
     }
 
@@ -44,7 +42,7 @@ public class LoginInterceptor implements HandlerInterceptor {
      */
     @Override
     public void postHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, ModelAndView modelAndView) throws Exception {
-        logger.info("进入 postHandle 方法... requestUrl: {}, requestUri: {}", httpServletRequest.getRequestURL(), httpServletRequest.getRequestURI());
+        logger.debug("进入 postHandle 方法... requestUrl: {}, requestUri: {}", httpServletRequest.getRequestURL(), httpServletRequest.getRequestURI());
     }
 
     /**
@@ -57,7 +55,7 @@ public class LoginInterceptor implements HandlerInterceptor {
      */
     @Override
     public void afterCompletion(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, Exception e) throws Exception {
-        logger.info("进入 afterCompletion 方法... requestUrl: {}, requestUri: {}", httpServletRequest.getRequestURL(), httpServletRequest.getRequestURI());
+        logger.debug("进入 afterCompletion 方法... requestUrl: {}, requestUri: {}", httpServletRequest.getRequestURL(), httpServletRequest.getRequestURI());
 
     }
 }
