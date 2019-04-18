@@ -55,6 +55,13 @@
             <version>0.9.1.2</version>
         </dependency>
 
+        <!-- 加密 -->
+        <dependency>
+            <groupId>org.mindrot</groupId>
+            <artifactId>jbcrypt</artifactId>
+            <version>0.4</version>
+        </dependency>
+
         <!-- DAO: MyBatis -->
         <dependency>
             <groupId>org.mybatis</groupId>

@@ -4,8 +4,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
 
+import javax.servlet.http.HttpServletResponse;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
+import java.io.OutputStream;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 
@@ -69,6 +71,22 @@ public class GzipUtil {
             logger.error("exception: {}", e.getMessage());
         }
         return outputStream.toByteArray();
+    }
+
+    public static void returnGzipResponse(HttpServletResponse response, String str, String encoding) {
+        try {
+            byte[] gzipBytes = compress(str, encoding);
+            if (null != gzipBytes) {
+                response.setHeader("Content-Encoding", "gzip");
+                response.setContentType("text/html");
+                OutputStream out = response.getOutputStream();
+                out.write(gzipBytes);
+                out.flush();
+                out.close();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 

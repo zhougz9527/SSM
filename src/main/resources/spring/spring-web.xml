@@ -37,6 +37,11 @@
         </mvc:interceptor>
     </mvc:interceptors>
 
+    <!-- 配置静态资源 -->
+    <mvc:resources mapping="/html/**" location="/WEB-INF/static/html/"/>
+    <mvc:resources mapping="/images/**" location="/WEB-INF/static/images/"/>
+    <mvc:resources mapping="/js/**" location="/WEB-INF/static/js/"/>
+
 
     <!-- 3.配置jsp 显示ViewResolver -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">

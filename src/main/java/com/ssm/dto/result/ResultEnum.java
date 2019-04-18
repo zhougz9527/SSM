@@ -9,7 +9,9 @@ public enum ResultEnum {
 
     SUCCESS(0, "请求成功"),
     PAGE_NOT_FOUND(404, "页面不存在"),
-    ACCOUNT_NOT_EXIST(600, "账号不存在");
+    ACCOUNT_NOT_EXIST(600, "账号不存在"),
+    INVALID_PARAMETER(601, "无效参数"),
+    INCORRECT_USERNAME_OR_PASSWORD(602, "用户名或者密码错误");
 
     public int code;
     public String msg;
