@@ -25,4 +25,9 @@ public class UserTest extends BaseTest {
         System.out.println("---------" + id + "----------");
     }
 
+    @Test
+    public void test() {
+        System.out.println("------------" + "http://///".startsWith("http") + "-----------");
+    }
+
 }
